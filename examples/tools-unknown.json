@@ -1,0 +1,10 @@
+{
+  "message": {
+    "type": "tool-calls",
+    "toolCallList": [{
+      "id": "demo-tool-unknown",
+      "type": "function",
+      "function": {"name": "unknown_tool", "arguments": {}}
+    }]
+  }
+}

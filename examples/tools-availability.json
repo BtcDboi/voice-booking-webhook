@@ -1,0 +1,10 @@
+{
+  "message": {
+    "type": "tool-calls",
+    "toolCallList": [{
+      "id": "demo-tool-availability",
+      "type": "function",
+      "function": {"name": "check_availability", "arguments": {"date": "2030-01-07"}}
+    }]
+  }
+}

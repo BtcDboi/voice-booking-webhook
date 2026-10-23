@@ -1,0 +1,17 @@
+{
+  "message": {
+    "type": "tool-calls",
+    "toolWithToolCallList": [{
+      "type": "function",
+      "function": {
+        "name": "check_availability",
+        "parameters": {"type": "object", "properties": {"date": {"type": "string"}}, "required": ["date"]}
+      },
+      "toolCall": {
+        "id": "demo-tool-wrapped-availability",
+        "type": "function",
+        "function": {"name": "check_availability", "arguments": "{\"date\":\"2030-01-07\"}"}
+      }
+    }]
+  }
+}

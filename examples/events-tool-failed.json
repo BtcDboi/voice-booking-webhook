@@ -1,0 +1,18 @@
+{
+  "message": {
+    "type": "end-of-call-report",
+    "endedReason": "customer-ended-call",
+    "call": {"id": "demo-call-tool-failed"},
+    "analysis": {"summary": "The appointment was booked successfully."},
+    "artifact": {
+      "messages": [{
+        "role": "tool_call_result",
+        "name": "book_appointment",
+        "toolCallId": "demo-tool-competing-booking",
+        "result": "{\"booked\":false,\"reason\":\"slot_taken\"}",
+        "time": 0,
+        "secondsFromStart": 0
+      }]
+    }
+  }
+}

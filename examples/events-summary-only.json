@@ -1,0 +1,11 @@
+{
+  "message": {
+    "type": "end-of-call-report",
+    "endedReason": "customer-ended-call",
+    "call": {"id": "demo-call-summary-only"},
+    "analysis": {"summary": "The appointment was booked successfully."},
+    "artifact": {
+      "messages": [{"role": "bot", "message": "Your appointment is booked.", "time": 0, "secondsFromStart": 0}]
+    }
+  }
+}
